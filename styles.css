@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+#Encabezado{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 500px;
+    margin-left: 515px;
+}
+
+header{
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+}
+
+body{
+    background-color: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0%;
+    margin: 0%;
+}
+
+.Background{
+    background-color:#eaeaea;
+}
+
+#Contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Feed{
+    border-radius: 14px;
+    box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 650px;
+    height: 610px;
+    background-color: white;
+    margin: 40px;
+    padding: 0px;
+    justify-content: space-between;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+}
+
+#Feed1{
+    margin-top: 70px;
+}
+
+#Feed2{
+    height: 800px;
+}
+
+#Feed3{
+    height: 830px;
+}
+
+.C1{
+    word-spacing: 0.25em;
+    font-weight: 700;
+    width: fit-content;
+    height: fit-content;
+    font-size: large;
+    margin-left: 7px;
+}
+
+.C2{
+    color: #b9b4b1;
+    opacity: 7;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 7px;
+    margin-top: 22px;
+}
+
+.Cabeceras{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.Footer{
+    position: absolute;
+    bottom: 5px;
+    margin: 15px;
+    display: flex;
+}
+
+#Pasta{
+    position: absolute;
+    top: 25%;
+}
+
+span{
+    font-weight: bold;
+}
